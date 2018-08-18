@@ -22,6 +22,14 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSPrincipalClass</key>
+	<string>ESJsonFormat</string>
+	<key>XC4Compatible</key>
+	<true/>
+	<key>XCPluginHasUI</key>
+	<false/>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
 		<string>AABB7188-E14E-4433-AD3B-5CD791EAD9A3</string>
@@ -39,14 +47,7 @@
 		<string>ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C</string>
 		<string>DFFB3951-EB0A-4C09-9DAC-5F2D28CC839C</string>
 		<string>CA351AD8-3176-41CB-875C-42A05C7CDEC7</string>
+		<string>EE23884D-A5C0-4163-94CF-DBBF3A5ED8D6</string>
 	</array>
-	<key>LSMinimumSystemVersion</key>
-	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>NSPrincipalClass</key>
-	<string>ESJsonFormat</string>
-	<key>XC4Compatible</key>
-	<true/>
-	<key>XCPluginHasUI</key>
-	<false/>
 </dict>
 </plist>

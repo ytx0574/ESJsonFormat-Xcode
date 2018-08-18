@@ -87,6 +87,10 @@
         if ([notify.object isKindOfClass:NSClassFromString(@"IDEPegasusSourceEditor.SourceCodeEditorView")]) {
             self.currentTextView = notify.object;
         }
+        //johnson update
+        else if ([notify.object isKindOfClass:NSClassFromString(@"IDESourceEditor.IDESourceEditorView")]) {
+            self.currentTextView = notify.object;
+        }
     }else if ([notify.name isEqualToString:@"IDEWorkspaceDocumentWillWriteStateDataNotification"]) {
         NSArray *recentEditorDocumentURLs = [notify.object valueForKey:@"_recentEditorDocumentURLs"];
         NSString *path = [recentEditorDocumentURLs.firstObject absoluteString];
